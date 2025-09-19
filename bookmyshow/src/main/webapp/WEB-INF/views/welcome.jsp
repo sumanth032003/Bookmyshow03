@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>>Welcome - BookMyShow</title>
 </head>
-<body>
+<body><h2>${message}</h2>
+  <p><a href="${pageContext.request.contextPath}/user/login">Login</a> | <a href="${pageContext.request.contextPath}/user/signup">Sign Up</a></p>
 
 </body>
 </html>

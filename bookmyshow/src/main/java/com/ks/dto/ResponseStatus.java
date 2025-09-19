@@ -1,5 +1,6 @@
 package com.ks.dto;
 
-public class ResponseStatus {
-
+public enum ResponseStatus {
+  SUCCESS,
+  FAILED
 }
